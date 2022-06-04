@@ -4,7 +4,7 @@ import requests
 r = requests.get('https://www.python.org')
 #r1 = requests.get('https://httpbin.org/basic-auth/user/pass', auth=('user', 'pass'))
 print(r.text)
-#json_response_body = r.json()
+json_response_body = r.json()
 #text_response = r.text
 #print(type(text_response))
 #print(type(json_response_body))
