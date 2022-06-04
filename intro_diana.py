@@ -9,10 +9,11 @@ print(r.text)
 #print(type(text_response))
 #print(type(json_response_body))
 ##########################################################################################
-#url  = 'https://api.twitter.com/2/users/by?usernames=lacamposm,twitterapi,adsapi&expansions=pinned_tweet_id&tweet.fields=author_id,created_at'
-#bearer_token = 'AAAAAAAAAAAAAAAAAAAAAJydVwEAAAAAIL7KbqUsfX8Y%2BfPFBaJJQC7BSLI%3D66l1uuozkA0UP4PWUzWfPROYM1KM2iaMUdPKhnuCxQfV4JzRfS'
+url  = 'https://api.twitter.com/2/users/by?usernames=lacamposm,twitterapi,adsapi&expansions=pinned_tweet_id&tweet.fields=author_id,created_at'
+bearer_token = 'AAAAAAAAAAAAAAAAAAAAAJydVwEAAAAAIL7KbqUsfX8Y%2BfPFBaJJQC7BSLI%3D66l1uuozkA0UP4PWUzWfPROYM1KM2iaMUdPKhnuCxQfV4JzRfS'
 #r1 = requests.get(url, headers={'Authorization': 'Bearer ' + bearer_token})
-#print(r1.json())
+print("holaaaaaaaaaaaaaaaaaaa")
+print(r1.json())
 ##########################################################################################
 #url2 = "https://api.twitter.com/2/users/637189539/mentions?expansions=referenced_tweets.id&tweet.fields=created_at,author_id,text,lang&max_results=100"
 #r2 = requests.get(url2, headers={'Authorization': 'Bearer ' + bearer_token})
